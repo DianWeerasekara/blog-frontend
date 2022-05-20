@@ -1,0 +1,41 @@
+.ssinglePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: blue;
+}
+
+.singlePostIcon:last-child {
+    color: tomato !important;
+}
+
+.singlePostdescription {
+    color: #666;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.singlePostdescription::first-letter {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
